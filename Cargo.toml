@@ -135,8 +135,6 @@ foundry-utils = { path = "crates/utils" }
 foundry-debugger = { path = "crates/debugger" }
 
 ## revm
-# revm = "3"
-# revm-primitives = "1"
 revm =  { git = "https://github.com/derevyan/revm.git", branch = "artemonis" }
 revm-interpreter = { git = "https://github.com/derevyan/revm.git", branch = "artemonis" }
 revm-precompile = { git = "https://github.com/derevyan/revm.git", branch = "artemonis" }
@@ -167,17 +165,6 @@ itertools = "0.11"
 chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
 hex = { package = "const-hex", version = "1.6", features = ["hex"] }
 
-#[patch."https://github.com/gakonst/ethers-rs"]
-#ethers = { path = "../ethers-rs/ethers" }
-#ethers-addressbook = { path = "../ethers-rs/ethers-addressbook" }
-#ethers-contract = { path = "../ethers-rs/ethers-contract" }
-#ethers-contract-abigen = { path = "../ethers-rs/ethers-contract/ethers-contract-abigen" }
-#ethers-core = { path = "../ethers-rs/ethers-core" }
-#ethers-etherscan = { path = "../ethers-rs/ethers-etherscan" }
-#ethers-middleware = { path = "../ethers-rs/ethers-middleware" }
-#ethers-providers = { path = "../ethers-rs/ethers-providers" }
-#ethers-signers = { path = "../ethers-rs/ethers-signers" }
-#ethers-solc = { path = "../ethers-rs/ethers-solc" }
 
 [patch.crates-io]
 ethers = { git = "https://github.com/derevyan/ethers-rs.git", branch = "artemonis" }
