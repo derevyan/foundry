@@ -165,20 +165,3 @@ itertools = "0.11"
 chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
 hex = { package = "const-hex", version = "1.6", features = ["hex"] }
 
-
-[patch.crates-io]
-ethers = { git = "https://github.com/derevyan/ethers-rs.git", branch = "artemonis" }
-ethers-addressbook = { git = "https://github.com/derevyan/ethers-rs.git", branch = "artemonis" }
-ethers-core = { git = "https://github.com/derevyan/ethers-rs.git", branch = "artemonis" }
-ethers-contract = { git = "https://github.com/derevyan/ethers-rs.git", branch = "artemonis" }
-ethers-contract-abigen = { git = "https://github.com/derevyan/ethers-rs.git", branch = "artemonis" }
-ethers-providers = { git = "https://github.com/derevyan/ethers-rs.git", branch = "artemonis" }
-ethers-signers = { git = "https://github.com/derevyan/ethers-rs.git", branch = "artemonis" }
-ethers-middleware = { git = "https://github.com/derevyan/ethers-rs.git", branch = "artemonis" }
-ethers-etherscan = { git = "https://github.com/derevyan/ethers-rs.git", branch = "artemonis" }
-ethers-solc = { git = "https://github.com/derevyan/ethers-rs.git", branch = "artemonis" }
-
-revm =  { git = "https://github.com/derevyan/revm.git", branch = "artemonis" }
-revm-interpreter = { git = "https://github.com/derevyan/revm.git", branch = "artemonis" }
-revm-precompile = { git = "https://github.com/derevyan/revm.git", branch = "artemonis" }
-revm-primitives = { git = "https://github.com/derevyan/revm.git", branch = "artemonis" }
